@@ -1,11 +1,9 @@
 month,exercise_name,best_1rm_kg
-2020-05-01,Chest Fly,71.8
 2020-05-01,Incline Bench Press (Barbell),76.0
 2020-05-01,Lateral Raise (Cable),11.3
 2020-05-01,Leg Press,260.0
 2020-05-01,Lying Leg Curl (Machine),24.5
 2020-05-01,Pull Up,7.2
-2020-05-01,Reverse Fly (Machine),51.3
 2020-05-01,Triceps Extension (Cable),21.0
 2020-06-01,Bench Press (Barbell),95.0
 2020-06-01,Bent Over Row (Barbell),73.3
@@ -59,7 +57,7 @@ month,exercise_name,best_1rm_kg
 2020-07-01,Leg Extension (Machine),99.1
 2020-07-01,Leg Press,375.0
 2020-07-01,Lying Leg Curl (Machine),66.7
-2020-07-01,Pull Up,19.0
+2020-07-01,Pull Up,13.3
 2020-07-01,Reverse Fly (Machine),68.3
 2020-07-01,Romanian Deadlift (Barbell),88.7
 2020-07-01,Seated Calf Raise (Plate Loaded),30.0
@@ -206,27 +204,24 @@ month,exercise_name,best_1rm_kg
 2020-11-01,Seated Leg Curl (Machine),86.7
 2020-11-01,Seated Leg Press (Machine),143.0
 2020-11-01,Shrug (Dumbbell),33.0
-2020-11-01,Triceps Dip,0.0
-2020-12-01,Ab Wheel,16.8
-2020-12-01,Bent Over One Arm Row (Dumbbell),31.5
+2020-12-01,Ab Wheel,0.0
+2020-12-01,Bent Over One Arm Row (Dumbbell),29.3
 2020-12-01,Bicep Curl (Cable),0.0
 2020-12-01,Chest Dip,0.0
 2020-12-01,Goblet Squat (Kettlebell),36.7
 2020-12-01,Handstand Push Up,0.0
-2020-12-01,Kettlebell Swing,32.0
+2020-12-01,Kettlebell Swing,26.7
 2020-12-01,Lateral Raise (Dumbbell),8.2
 2020-12-01,Overhead Press (Dumbbell),21.9
 2020-12-01,Pull Up,0.0
 2020-12-01,Pullover (Dumbbell),31.5
 2020-12-01,Push Up,0.0
-2020-12-01,Shrug (Dumbbell),33.0
 2021-01-01,Ab Wheel,0.0
 2021-01-01,Bent Over One Arm Row (Dumbbell),31.5
 2021-01-01,Bicep Curl (Cable),0.0
 2021-01-01,Bicep Curl (Dumbbell),8.0
 2021-01-01,Bulgarian Split Squat,32.3
 2021-01-01,Chest Dip,0.0
-2021-01-01,Crunch,0.0
 2021-01-01,Deadlift (Dumbbell),24.5
 2021-01-01,Goblet Squat (Kettlebell),36.7
 2021-01-01,Handstand Push Up,0.0
@@ -236,8 +231,6 @@ month,exercise_name,best_1rm_kg
 2021-01-01,Push Up,0.0
 2021-01-01,Shrug (Dumbbell),33.0
 2021-01-01,Triceps Dip,0.0
-2021-01-01,Triceps Extension,0.0
-2021-02-01,Ab Wheel,0.0
 2021-02-01,Arnold Press (Dumbbell),21.3
 2021-02-01,Bent Over One Arm Row (Dumbbell),33.0
 2021-02-01,Bent Over Row (Band),0.0
@@ -245,8 +238,6 @@ month,exercise_name,best_1rm_kg
 2021-02-01,Bicep Curl (Dumbbell),8.3
 2021-02-01,Bulgarian Split Squat,33.7
 2021-02-01,Chest Dip,0.0
-2021-02-01,Cross Body Crunch,0.0
-2021-02-01,Crunch,8.3
 2021-02-01,Deadlift (Dumbbell),24.0
 2021-02-01,Face Pull (Cable),0.0
 2021-02-01,Goblet Squat (Kettlebell),38.1
@@ -265,18 +256,12 @@ month,exercise_name,best_1rm_kg
 2021-03-01,Bent Over One Arm Row (Dumbbell),34.5
 2021-03-01,Bent Over Row (Band),0.0
 2021-03-01,Bicep Curl (Cable),0.0
-2021-03-01,Bicycle Crunch,0.0
 2021-03-01,Chest Dip,0.0
-2021-03-01,Cross Body Crunch,0.0
-2021-03-01,Crunch,9.0
 2021-03-01,Deadlift (Dumbbell),33.0
-2021-03-01,Goblet Squat (Kettlebell),35.9
+2021-03-01,Goblet Squat (Kettlebell),34.5
 2021-03-01,Handstand Push Up,0.0
-2021-03-01,Hanging Leg Raise,0.0
-2021-03-01,Hip Thrust (Barbell),33.0
 2021-03-01,Kettlebell Swing,28.3
 2021-03-01,Lateral Raise (Dumbbell),8.7
-2021-03-01,Leg Extension (Machine),102.5
 2021-03-01,Overhead Press (Dumbbell),32.3
 2021-03-01,Push Up (Band),22.4
 2021-03-01,Shrug (Barbell),24.5
@@ -291,7 +276,7 @@ month,exercise_name,best_1rm_kg
 2021-04-01,Crunch,8.7
 2021-04-01,Deadlift (Dumbbell),33.7
 2021-04-01,Goblet Squat (Kettlebell),37.4
-2021-04-01,Hip Thrust (Barbell),33.7
+2021-04-01,Hip Thrust (Barbell),32.3
 2021-04-01,Lateral Raise (Dumbbell),8.7
 2021-04-01,Leg Extension (Machine),103.9
 2021-04-01,Lunge (Dumbbell),53.2
@@ -317,14 +302,14 @@ month,exercise_name,best_1rm_kg
 2021-05-01,Crunch,0.0
 2021-05-01,Deadlift (Barbell),126.7
 2021-05-01,Deadlift (Dumbbell),58.3
-2021-05-01,Goblet Squat (Kettlebell),38.1
-2021-05-01,Hip Abductor (Machine),88.8
-2021-05-01,Hip Adductor (Machine),120.0
-2021-05-01,Hip Thrust (Barbell),35.2
+2021-05-01,Goblet Squat (Kettlebell),36.7
+2021-05-01,Hip Abductor (Machine),86.3
+2021-05-01,Hip Adductor (Machine),100.3
+2021-05-01,Hip Thrust (Barbell),34.5
 2021-05-01,Incline Bench Press (Dumbbell),39.2
 2021-05-01,Lat Pulldown (Cable),93.3
 2021-05-01,Lateral Raise (Cable),11.0
-2021-05-01,Lateral Raise (Dumbbell),10.4
+2021-05-01,Lateral Raise (Dumbbell),8.7
 2021-05-01,Leg Extension (Machine),107.5
 2021-05-01,Leg Press,322.7
 2021-05-01,Lunge (Dumbbell),58.3
@@ -336,10 +321,8 @@ month,exercise_name,best_1rm_kg
 2021-05-01,Seated Leg Curl (Machine),73.3
 2021-05-01,Seated Overhead Press (Dumbbell),26.7
 2021-05-01,Seated Row (Cable),100.3
-2021-05-01,Shoulder Press (Machine),47.8
 2021-05-01,Shrug (Barbell),40.7
-2021-05-01,Skullcrusher (Barbell),37.5
-2021-05-01,Squat (Barbell),86.3
+2021-05-01,Squat (Barbell),80.0
 2021-05-01,Strict Military Press (Barbell),50.7
 2021-05-01,Sumo Deadlift (Barbell),91.0
 2021-05-01,Triceps Extension,0.0
@@ -351,9 +334,8 @@ month,exercise_name,best_1rm_kg
 2021-06-01,Bicep Curl (Barbell),36.7
 2021-06-01,Bicep Curl (Cable),10.5
 2021-06-01,Bicep Curl (Machine),76.0
-2021-06-01,Cable Crossover,19.7
+2021-06-01,Cable Crossover,17.1
 2021-06-01,Chest Fly,90.1
-2021-06-01,Chest Press (Machine),70.0
 2021-06-01,Crunch (Machine),52.5
 2021-06-01,Deadlift (Barbell),130.0
 2021-06-01,Hip Abductor (Machine),80.5
@@ -361,10 +343,10 @@ month,exercise_name,best_1rm_kg
 2021-06-01,Incline Bench Press (Dumbbell),44.0
 2021-06-01,Lat Pulldown (Cable),98.0
 2021-06-01,Lat Pulldown (Machine),91.0
-2021-06-01,Lateral Raise (Cable),11.3
+2021-06-01,Lateral Raise (Cable),10.5
 2021-06-01,Lateral Raise (Machine),47.7
 2021-06-01,Leg Extension (Machine),113.6
-2021-06-01,Leg Press,352.0
+2021-06-01,Leg Press,337.3
 2021-06-01,Lying Leg Curl (Machine),66.7
 2021-06-01,Overhead Press (Dumbbell),28.0
 2021-06-01,Pullover (Machine),42.8
@@ -374,10 +356,10 @@ month,exercise_name,best_1rm_kg
 2021-06-01,Seated Overhead Press (Dumbbell),27.3
 2021-06-01,Seated Row (Cable),98.7
 2021-06-01,Seated Row (Machine),95.7
-2021-06-01,Shoulder Press (Machine),58.5
+2021-06-01,Shoulder Press (Machine),56.0
 2021-06-01,Shrug (Dumbbell),44.8
 2021-06-01,Skullcrusher (Barbell),36.7
-2021-06-01,Squat (Barbell),91.0
+2021-06-01,Squat (Barbell),88.7
 2021-06-01,Triceps Extension (Machine),117.3
 2021-06-01,Triceps Pushdown (Cable - Straight Bar),43.3
 2021-07-01,Bench Press (Barbell),95.7
@@ -574,7 +556,6 @@ month,exercise_name,best_1rm_kg
 2022-01-01,Shrug (Dumbbell),38.4
 2022-01-01,Skullcrusher (Barbell),34.5
 2022-01-01,Squat (Barbell),78.0
-2022-01-01,Squat (Bodyweight),0.0
 2022-01-01,Strict Military Press (Barbell),56.0
 2022-01-01,Sumo Deadlift (Barbell),117.0
 2022-01-01,Triceps Extension,0.0
@@ -678,7 +659,7 @@ month,exercise_name,best_1rm_kg
 2022-05-01,Bench Press - Close Grip (Barbell),84.0
 2022-05-01,Bicep Curl (Barbell),44.3
 2022-05-01,Bicep Curl (Cable),36.7
-2022-05-01,Bicep Curl (Machine),88.0
+2022-05-01,Bicep Curl (Machine),86.0
 2022-05-01,Bulgarian Split Squat,20.5
 2022-05-01,Cable Crossover,23.0
 2022-05-01,Chest Dip,35.8
@@ -688,13 +669,12 @@ month,exercise_name,best_1rm_kg
 2022-05-01,Hip Abductor (Machine),116.0
 2022-05-01,Hip Adductor (Machine),164.7
 2022-05-01,Incline Bench Press (Dumbbell),49.2
-2022-05-01,Incline Chest Press (Machine),58.5
+2022-05-01,Incline Chest Press (Machine),54.0
 2022-05-01,Incline Curl (Dumbbell),16.0
 2022-05-01,Lat Pulldown (Cable),117.3
 2022-05-01,Lat Pulldown (Single Arm),50.2
 2022-05-01,Lateral Raise (Cable),12.8
 2022-05-01,Lateral Raise (Dumbbell),18.4
-2022-05-01,Lateral Raise (Machine),51.3
 2022-05-01,Leg Extension (Machine),153.3
 2022-05-01,Lying Leg Curl (Machine),86.2
 2022-05-01,Overhead Press (Dumbbell),33.8
@@ -702,7 +682,7 @@ month,exercise_name,best_1rm_kg
 2022-05-01,Pullover (Machine),50.0
 2022-05-01,Reverse Fly (Machine),90.1
 2022-05-01,Romanian Deadlift (Barbell),112.0
-2022-05-01,Seated Leg Curl (Machine),101.8
+2022-05-01,Seated Leg Curl (Machine),95.3
 2022-05-01,Seated Leg Press (Machine),164.5
 2022-05-01,Seated Row (Cable),104.0
 2022-05-01,Seated Row (Machine),91.0
@@ -756,11 +736,9 @@ month,exercise_name,best_1rm_kg
 2022-07-01,Bent Over Row (Barbell),107.3
 2022-07-01,Bicep Curl (Barbell),40.5
 2022-07-01,Bicep Curl (Machine),83.3
-2022-07-01,Bulgarian Split Squat,20.1
 2022-07-01,Cable Crossover,23.3
 2022-07-01,Chest Dip,29.3
 2022-07-01,Crunch (Machine),86.2
-2022-07-01,Deadlift (Barbell),122.7
 2022-07-01,Face Pull (Cable),31.2
 2022-07-01,Hammer Curl (Dumbbell),19.6
 2022-07-01,Hip Abductor (Machine),120.8
@@ -771,15 +749,12 @@ month,exercise_name,best_1rm_kg
 2022-07-01,Lat Pulldown (Cable),120.0
 2022-07-01,Lateral Raise (Cable),12.3
 2022-07-01,Lateral Raise (Dumbbell),18.4
-2022-07-01,Leg Extension (Machine),122.7
 2022-07-01,Lying Leg Curl (Machine),73.3
 2022-07-01,Overhead Press (Dumbbell),35.2
 2022-07-01,Pull Up,19.5
 2022-07-01,Pullover (Machine),52.0
 2022-07-01,Reverse Fly (Machine),82.3
 2022-07-01,Romanian Deadlift (Barbell),102.7
-2022-07-01,Seated Calf Raise (Plate Loaded),53.7
-2022-07-01,Seated Leg Curl (Machine),89.8
 2022-07-01,Seated Leg Press (Machine),122.7
 2022-07-01,Seated Row (Cable),112.0
 2022-07-01,Seated Row (Machine),96.7
@@ -867,7 +842,7 @@ month,exercise_name,best_1rm_kg
 2022-10-01,Seated Overhead Press (Dumbbell),39.9
 2022-10-01,Seated Row (Cable),117.0
 2022-10-01,Seated Row (Machine),63.3
-2022-10-01,Shoulder Press (Machine),75.0
+2022-10-01,Shoulder Press (Machine),71.7
 2022-10-01,Shrug (Barbell),40.7
 2022-10-01,Shrug (Dumbbell),46.8
 2022-10-01,Skullcrusher (Barbell),45.0
@@ -905,7 +880,6 @@ month,exercise_name,best_1rm_kg
 2022-12-01,Bicep Curl (Machine),79.6
 2022-12-01,Cable Crossover,22.0
 2022-12-01,Chest Dip,29.3
-2022-12-01,Chest Fly,93.2
 2022-12-01,Hammer Curl (Dumbbell),16.8
 2022-12-01,Hip Abductor (Machine),135.3
 2022-12-01,Hip Adductor (Machine),170.8
@@ -997,7 +971,7 @@ month,exercise_name,best_1rm_kg
 2023-03-01,Incline Curl (Dumbbell),18.4
 2023-03-01,Knee Raise (Captain's Chair),0.0
 2023-03-01,Lateral Raise (Cable),11.5
-2023-03-01,Leg Extension (Machine),133.3
+2023-03-01,Leg Extension (Machine),83.3
 2023-03-01,Leg Press,56.7
 2023-03-01,Lunge (Dumbbell),28.0
 2023-03-01,Lying Leg Curl (Machine),80.5
@@ -1013,7 +987,7 @@ month,exercise_name,best_1rm_kg
 2023-03-01,Seated Row (Machine),112.0
 2023-03-01,Shoulder Press (Machine),54.7
 2023-03-01,Shrug (Dumbbell),43.3
-2023-03-01,Standing Calf Raise (Machine),108.3
+2023-03-01,Standing Calf Raise (Machine),95.8
 2023-03-01,Triceps Extension (Cable),32.6
 2023-03-01,Triceps Pushdown (Cable - Straight Bar),46.6
 2023-04-01,Back Extension,16.7
@@ -1177,9 +1151,9 @@ month,exercise_name,best_1rm_kg
 2023-10-01,Seated Leg Curl (Machine),92.0
 2023-10-01,Seated Leg Press (Machine),172.3
 2023-10-01,Seated Overhead Press (Dumbbell),40.7
-2023-10-01,Seated Row (Cable),106.7
+2023-10-01,Seated Row (Cable),98.0
 2023-10-01,Squat (Barbell),93.3
-2023-10-01,Triceps Pushdown (Cable - Straight Bar),54.4
+2023-10-01,Triceps Pushdown (Cable - Straight Bar),54.2
 2023-10-01,Upright Row (Dumbbell),16.8
 2023-11-01,Bench Press (Barbell),106.7
 2023-11-01,Bicep Curl (Barbell),48.0
@@ -1241,18 +1215,14 @@ month,exercise_name,best_1rm_kg
 2024-01-01,Stiff Leg Deadlift (Dumbbell),37.3
 2024-01-01,Triceps Extension (Cable),11.3
 2024-01-01,Upright Row (Dumbbell),14.3
-2024-02-01,Bench Press (Barbell),109.3
 2024-02-01,Bent Over Row (Barbell),88.0
 2024-02-01,Bicep Curl (Barbell),48.3
 2024-02-01,Bicep Curl (Cable),14.7
 2024-02-01,Cable Crossover,17.9
-2024-02-01,Chest Dip,23.0
-2024-02-01,Chest Fly,82.4
 2024-02-01,Face Pull (Cable),27.4
 2024-02-01,Hammer Curl (Dumbbell),16.8
-2024-02-01,Incline Bench Press (Dumbbell),45.9
+2024-02-01,Incline Bench Press (Dumbbell),44.8
 2024-02-01,Incline Curl (Dumbbell),15.3
-2024-02-01,Lateral Raise (Cable),9.8
 2024-02-01,Lateral Raise (Dumbbell),12.3
 2024-02-01,Lying Leg Curl (Machine),71.7
 2024-02-01,Pull Up,14.3
@@ -1260,15 +1230,12 @@ month,exercise_name,best_1rm_kg
 2024-02-01,Reverse Fly (Machine),69.0
 2024-02-01,Romanian Deadlift (Barbell),102.7
 2024-02-01,Seated Calf Raise (Plate Loaded),34.0
-2024-02-01,Seated Leg Press (Machine),148.8
-2024-02-01,Seated Overhead Press (Dumbbell),37.3
 2024-02-01,Seated Row (Machine),95.3
-2024-02-01,Skullcrusher (Barbell),43.3
-2024-02-01,Split Squat Dumbbell,27.6
-2024-02-01,Squat (Barbell),95.7
+2024-02-01,Skullcrusher (Barbell),38.7
+2024-02-01,Split Squat Dumbbell,21.0
+2024-02-01,Squat (Barbell),93.3
 2024-02-01,Stiff Leg Deadlift (Dumbbell),38.1
-2024-02-01,Triceps Extension,27.4
-2024-03-01,Bench Press (Barbell),112.0
+2024-03-01,Bench Press (Barbell),109.3
 2024-03-01,Bent Over Row (Barbell),99.7
 2024-03-01,Bicep Curl (Barbell),51.2
 2024-03-01,Bicep Curl (Cable),40.3
@@ -1276,7 +1243,7 @@ month,exercise_name,best_1rm_kg
 2024-03-01,Chest Dip,33.3
 2024-03-01,Chest Fly,101.8
 2024-03-01,Face Pull (Cable),35.7
-2024-03-01,Incline Bench Press (Dumbbell),46.5
+2024-03-01,Incline Bench Press (Dumbbell),45.9
 2024-03-01,Lat Pulldown (Cable),123.3
 2024-03-01,Lateral Raise (Cable),11.0
 2024-03-01,Lateral Raise (Dumbbell),12.3
@@ -1288,12 +1255,12 @@ month,exercise_name,best_1rm_kg
 2024-03-01,Romanian Deadlift (Barbell),115.0
 2024-03-01,Seated Calf Raise (Plate Loaded),41.7
 2024-03-01,Seated Leg Curl (Machine),90.1
-2024-03-01,Seated Leg Press (Machine),167.4
+2024-03-01,Seated Leg Press (Machine),157.2
 2024-03-01,Seated Overhead Press (Dumbbell),39.9
 2024-03-01,Seated Row (Machine),105.0
 2024-03-01,Shrug (Dumbbell),43.3
 2024-03-01,Skullcrusher (Barbell),43.3
-2024-03-01,Split Squat Dumbbell,32.0
+2024-03-01,Split Squat Dumbbell,30.7
 2024-03-01,Squat (Barbell),102.7
 2024-03-01,Stiff Leg Deadlift (Dumbbell),42.9
 2024-03-01,Triceps Extension,34.0
@@ -1301,14 +1268,14 @@ month,exercise_name,best_1rm_kg
 2024-04-01,Bicep Curl (Cable),40.3
 2024-04-01,Bicep Curl (Machine),84.0
 2024-04-01,Chest Dip,29.3
-2024-04-01,Chest Fly,107.3
+2024-04-01,Chest Fly,99.0
 2024-04-01,Face Pull (Cable),39.0
 2024-04-01,Hip Abductor (Machine),114.8
 2024-04-01,Hip Adductor (Machine),183.3
 2024-04-01,Incline Bench Press (Dumbbell),48.7
 2024-04-01,Knee Raise (Captain's Chair),0.0
 2024-04-01,Lat Pulldown (Cable),129.5
-2024-04-01,Lateral Raise (Dumbbell),9.8
+2024-04-01,Lateral Raise (Dumbbell),9.6
 2024-04-01,Lateral Raise (Machine),53.7
 2024-04-01,Leg Extension (Machine),100.0
 2024-04-01,Lying Leg Curl (Machine),73.3
@@ -1316,31 +1283,27 @@ month,exercise_name,best_1rm_kg
 2024-04-01,Pullover (Machine),49.8
 2024-04-01,Reverse Fly (Machine),84.0
 2024-04-01,Romanian Deadlift (Barbell),115.0
-2024-04-01,Seated Calf Raise (Plate Loaded),52.0
+2024-04-01,Seated Calf Raise (Plate Loaded),51.0
 2024-04-01,Seated Leg Curl (Machine),94.0
 2024-04-01,Seated Leg Press (Machine),160.6
 2024-04-01,Seated Overhead Press (Dumbbell),39.9
 2024-04-01,Seated Row (Cable),100.3
 2024-04-01,Seated Row (Machine),106.3
 2024-04-01,Shrug (Dumbbell),44.2
-2024-04-01,Skullcrusher (Barbell),50.1
-2024-04-01,Split Squat Dumbbell,32.8
+2024-04-01,Skullcrusher (Barbell),44.3
+2024-04-01,Split Squat Dumbbell,32.3
 2024-04-01,Squat (Barbell),107.5
 2024-04-01,Stiff Leg Deadlift (Dumbbell),40.1
 2024-04-01,Triceps Extension,32.6
 2024-04-01,Triceps Extension (Cable),34.0
 2024-04-01,Triceps Pushdown (Cable - Straight Bar),36.4
-2024-05-01,90/90,0.0
-2024-05-01,ATG,0.0
 2024-05-01,Back Extension,16.3
 2024-05-01,Bench Press (Barbell),100.0
 2024-05-01,Bent Over Row (Barbell),91.0
 2024-05-01,Bicep Curl (Barbell),48.0
 2024-05-01,Bicep Curl (Cable),42.2
 2024-05-01,Bicep Curl (Machine),92.0
-2024-05-01,Cat/Cow,0.0
 2024-05-01,Chest Fly,99.7
-2024-05-01,Cossack Squats,0.0
 2024-05-01,Crunch (Machine),97.8
 2024-05-01,Front Squat (Barbell),95.3
 2024-05-01,Hip Abductor (Machine),110.5
@@ -1357,34 +1320,29 @@ month,exercise_name,best_1rm_kg
 2024-05-01,Pull Up,20.0
 2024-05-01,Reverse Fly (Dumbbell),9.6
 2024-05-01,Romanian Deadlift (Barbell),107.3
-2024-05-01,Seal/Child,0.0
 2024-05-01,Seated Calf Raise (Plate Loaded),52.0
 2024-05-01,Seated Leg Curl (Machine),93.2
 2024-05-01,Seated Leg Press (Machine),153.3
 2024-05-01,Seated Overhead Press (Dumbbell),41.6
 2024-05-01,Seated Row (Cable),120.0
 2024-05-01,Seated Row (Machine),114.7
-2024-05-01,Shoulder Mobility,0.0
 2024-05-01,Shrug (Dumbbell),32.7
 2024-05-01,Skullcrusher (Barbell),45.2
 2024-05-01,Squat (Barbell),101.5
-2024-05-01,Squat/Hamstring strech,0.0
 2024-05-01,Stiff Leg Deadlift (Dumbbell),39.9
 2024-05-01,Strict Military Press (Barbell),60.0
-2024-05-01,Supine Angels,0.0
-2024-05-01,Thoracic Twists,0.0
 2024-05-01,Triceps Extension (Cable),35.8
 2024-05-01,Triceps Pushdown (Cable - Straight Bar),55.6
 2024-06-01,Bent Over Row (Barbell),90.0
 2024-06-01,Bicep Curl (Barbell),46.9
 2024-06-01,Bicep Curl (Cable),41.1
 2024-06-01,Bicep Curl (Machine),94.0
-2024-06-01,Chest Fly,111.2
+2024-06-01,Chest Fly,104.0
 2024-06-01,Crunch (Machine),97.8
 2024-06-01,Incline Bench Press (Barbell),98.0
 2024-06-01,Incline Bench Press (Dumbbell),51.0
-2024-06-01,Lat Pulldown (Cable),138.0
-2024-06-01,Lateral Raise (Dumbbell),17.2
+2024-06-01,Lat Pulldown (Cable),132.0
+2024-06-01,Lateral Raise (Dumbbell),16.8
 2024-06-01,Lateral Raise (Machine),51.3
 2024-06-01,Leg Extension (Machine),100.0
 2024-06-01,Lying Leg Curl (Machine),88.0
@@ -1396,11 +1354,11 @@ month,exercise_name,best_1rm_kg
 2024-06-01,Seated Leg Curl (Machine),96.0
 2024-06-01,Seated Leg Press (Machine),167.4
 2024-06-01,Seated Overhead Press (Dumbbell),39.9
-2024-06-01,Seated Row (Machine),122.7
+2024-06-01,Seated Row (Machine),120.0
 2024-06-01,Skullcrusher (Barbell),46.9
 2024-06-01,Squat (Barbell),98.0
 2024-06-01,Standing Leg Curl,44.0
-2024-06-01,Triceps Extension (Cable),37.2
+2024-06-01,Triceps Extension (Cable),36.4
 2024-06-01,Triceps Extension (Machine),164.0
 2024-06-01,Triceps Pushdown (Cable - Straight Bar),58.0
 2024-07-01,Bent Over Row (Barbell),99.7
@@ -1435,45 +1393,42 @@ month,exercise_name,best_1rm_kg
 2024-07-01,Triceps Extension,35.4
 2024-07-01,Triceps Extension (Cable),37.2
 2024-07-01,Triceps Pushdown (Cable - Straight Bar),51.8
-2024-08-01,Bicep Curl (Barbell),45.9
 2024-08-01,Bicep Curl (Cable),15.4
 2024-08-01,Bicep Curl (Dumbbell),21.3
 2024-08-01,Bicep Curl (Machine),81.3
 2024-08-01,Cable Crossover,15.8
 2024-08-01,Crunch (Machine),106.3
-2024-08-01,Face Pull (Cable),44.1
+2024-08-01,Face Pull (Cable),40.0
 2024-08-01,Hack Squat,46.7
 2024-08-01,Hip Adductor (Machine),207.6
-2024-08-01,Incline Bench Press (Barbell),93.3
 2024-08-01,Incline Bench Press (Dumbbell),49.9
 2024-08-01,Incline Chest Press (Machine),73.3
 2024-08-01,Iso-Lateral Row (Machine),59.5
 2024-08-01,Lat Pulldown (Cable),114.7
-2024-08-01,Lateral Raise (Dumbbell),17.2
+2024-08-01,Lateral Raise (Dumbbell),11.7
 2024-08-01,Leg Extension (Machine),130.0
 2024-08-01,Lying Leg Curl (Machine),80.7
-2024-08-01,Pull Up,20.0
+2024-08-01,Pull Up,0.0
 2024-08-01,Pullover (Machine),49.8
 2024-08-01,Romanian Deadlift (Barbell),114.7
 2024-08-01,Seated Calf Raise (Plate Loaded),64.0
 2024-08-01,Seated Leg Curl (Machine),100.0
 2024-08-01,Seated Overhead Press (Dumbbell),39.9
-2024-08-01,Skullcrusher (Barbell),46.9
 2024-08-01,Standing Calf Raise (Machine),133.3
 2024-08-01,T Bar Row,63.0
 2024-08-01,Triceps Extension,34.8
-2024-08-01,Triceps Extension (Cable),35.1
+2024-08-01,Triceps Extension (Cable),31.2
 2024-08-01,Triceps Pushdown (Cable - Straight Bar),58.0
 2024-08-01,Upright Row (Barbell),44.8
 2024-09-01,Bench Press (Barbell),98.0
 2024-09-01,Bicep Curl (Barbell),43.3
 2024-09-01,Bicep Curl (Cable),16.1
-2024-09-01,Bicep Curl (Dumbbell),20.5
+2024-09-01,Bicep Curl (Dumbbell),19.6
 2024-09-01,Cable Crossover,18.0
 2024-09-01,Chest Dip,22.5
 2024-09-01,Chest Fly,91.0
 2024-09-01,Chest Press (Machine),86.0
-2024-09-01,Face Pull (Cable),38.0
+2024-09-01,Face Pull (Cable),37.6
 2024-09-01,Hack Squat,49.0
 2024-09-01,Incline Bench Press (Dumbbell),46.5
 2024-09-01,Lat Pulldown (Cable),109.3
@@ -1481,15 +1436,14 @@ month,exercise_name,best_1rm_kg
 2024-09-01,Lateral Raise (Dumbbell),16.8
 2024-09-01,Leg Extension (Machine),130.0
 2024-09-01,Overhead Press (Dumbbell),40.1
-2024-09-01,Pull Up,20.0
+2024-09-01,Pull Up,14.3
 2024-09-01,Romanian Deadlift (Barbell),105.0
-2024-09-01,Seated Row (Machine),104.0
 2024-09-01,Standing Calf Raise (Machine),136.0
 2024-09-01,T Bar Row,53.3
 2024-09-01,Triceps Extension,34.8
 2024-09-01,Triceps Extension (Cable),31.2
 2024-09-01,Triceps Pushdown (Cable - Straight Bar),55.6
-2024-09-01,Upright Row (Barbell),44.3
+2024-09-01,Upright Row (Barbell),43.3
 2024-10-01,Bicep Curl (Machine),67.4
 2024-10-01,Cable Crossover,18.0
 2024-10-01,Chest Dip,22.0
@@ -1517,7 +1471,6 @@ month,exercise_name,best_1rm_kg
 2024-11-01,Hammer Curl (Dumbbell),17.2
 2024-11-01,Hip Adductor (Machine),195.8
 2024-11-01,Incline Bench Press (Dumbbell),45.9
-2024-11-01,Lat Pulldown (Cable),95.7
 2024-11-01,Lateral Raise (Cable),9.8
 2024-11-01,Lateral Raise (Dumbbell),13.3
 2024-11-01,Lying Leg Curl (Machine),82.5
@@ -1637,9 +1590,8 @@ month,exercise_name,best_1rm_kg
 2025-03-01,Triceps Pushdown (Cable - Straight Bar),53.7
 2025-03-01,Upright Row (Barbell),35.8
 2025-03-01,Upright Row (Cable),40.1
-2025-04-01,Bent Over One Arm Row (Dumbbell),45.0
+2025-04-01,Bent Over One Arm Row (Dumbbell),43.0
 2025-04-01,Bicep Curl (Cable),18.8
-2025-04-01,Bulgarian Split Squat,20.5
 2025-04-01,Cable Crossover,21.1
 2025-04-01,Chest Dip,35.0
 2025-04-01,Face Pull (Cable),37.6
@@ -1649,19 +1601,17 @@ month,exercise_name,best_1rm_kg
 2025-04-01,Hip Adductor (Machine),168.7
 2025-04-01,Incline Bench Press (Dumbbell),48.7
 2025-04-01,Incline Curl (Dumbbell),17.6
-2025-04-01,Lat Pulldown (Cable),126.0
+2025-04-01,Lat Pulldown (Cable),109.7
 2025-04-01,Lateral Raise (Dumbbell),15.0
-2025-04-01,Leg Extension (Machine),116.0
+2025-04-01,Leg Extension (Machine),115.0
 2025-04-01,Leg Press,172.5
-2025-04-01,Lying Leg Curl (Machine),71.5
-2025-04-01,Pull Up,16.8
+2025-04-01,Pull Up,14.3
 2025-04-01,Pullover (Machine),42.9
 2025-04-01,Reverse Cable Curl,23.0
 2025-04-01,Romanian Deadlift (Barbell),109.3
-2025-04-01,Seated Calf Raise (Plate Loaded),58.3
-2025-04-01,Seated Leg Curl (Machine),93.8
+2025-04-01,Seated Leg Curl (Machine),82.0
 2025-04-01,Seated Overhead Press (Dumbbell),39.2
-2025-04-01,Seated Row (Machine),117.3
+2025-04-01,Seated Row (Machine),112.0
 2025-04-01,Triceps Extension (Cable),38.3
 2025-04-01,Triceps Pushdown (Cable - Straight Bar),58.0
 2025-04-01,Upright Row (Cable),43.1
@@ -1681,7 +1631,7 @@ month,exercise_name,best_1rm_kg
 2025-05-01,Lying Leg Curl (Machine),70.0
 2025-05-01,Pull Up,21.5
 2025-05-01,Pullover (Machine),40.3
-2025-05-01,Reverse Cable Curl,21.1
+2025-05-01,Reverse Cable Curl,20.0
 2025-05-01,Romanian Deadlift (Barbell),112.0
 2025-05-01,Seated Leg Curl (Machine),97.5
 2025-05-01,Seated Leg Press (Machine),152.8
@@ -1690,7 +1640,7 @@ month,exercise_name,best_1rm_kg
 2025-05-01,Shrug (Dumbbell),41.6
 2025-05-01,Standing Calf Raise (Machine),116.0
 2025-05-01,Standing Leg Curl,45.0
-2025-05-01,Triceps Extension (Cable),35.6
+2025-05-01,Triceps Extension (Cable),34.0
 2025-05-01,Triceps Pushdown (Cable - Straight Bar),54.4
 2025-05-01,Upright Row (Cable),43.1
 2025-06-01,Bent Over One Arm Row (Dumbbell),49.9
@@ -1712,7 +1662,6 @@ month,exercise_name,best_1rm_kg
 2025-06-01,Romanian Deadlift (Barbell),120.0
 2025-06-01,Seated Leg Curl (Machine),95.3
 2025-06-01,Seated Overhead Press (Dumbbell),42.0
-2025-06-01,Seated Row (Machine),112.0
 2025-06-01,Shrug (Dumbbell),45.7
 2025-06-01,Standing Leg Curl,49.0
 2025-06-01,Triceps Extension (Cable),34.7
@@ -1722,26 +1671,24 @@ month,exercise_name,best_1rm_kg
 2025-07-01,Bench Press (Barbell),106.7
 2025-07-01,Bent Over One Arm Row (Dumbbell),48.7
 2025-07-01,Bicep Curl (Cable),18.4
-2025-07-01,Bulgarian Split Squat,25.2
 2025-07-01,Bulgarien Split SMITH,41.0
 2025-07-01,Cable Crossover,23.0
 2025-07-01,Chest Dip,36.7
 2025-07-01,Face Pull (Cable),39.2
-2025-07-01,Hack Squat,86.7
-2025-07-01,Hammer Curl (Dumbbell),21.3
+2025-07-01,Hack Squat,63.3
+2025-07-01,Hammer Curl (Dumbbell),20.5
 2025-07-01,Incline Bench Press (Dumbbell),48.0
 2025-07-01,Incline Curl (Dumbbell),19.1
 2025-07-01,Lat Pulldown (Cable),123.0
 2025-07-01,Lateral Raise (Cable),11.1
 2025-07-01,Lateral Raise (Dumbbell),15.7
-2025-07-01,Leg Extension (Machine),134.2
+2025-07-01,Leg Extension (Machine),131.3
 2025-07-01,Pull Up,20.5
 2025-07-01,Pullover (Machine),41.2
 2025-07-01,Reverse Cable Curl,25.5
 2025-07-01,Reverse Fly (Machine),77.0
 2025-07-01,Romanian Deadlift (Barbell),126.0
 2025-07-01,Seated Calf Raise (Plate Loaded),57.3
-2025-07-01,Seated Leg Curl (Machine),95.3
 2025-07-01,Seated Overhead Press (Dumbbell),40.1
 2025-07-01,Seated Row (Cable),102.7
 2025-07-01,Shrug (Dumbbell),49.9
@@ -1749,43 +1696,34 @@ month,exercise_name,best_1rm_kg
 2025-07-01,Standing Leg Curl,44.0
 2025-07-01,Triceps Extension (Cable),29.4
 2025-07-01,Triceps Extensions Stange,41.2
-2025-07-01,Triceps Pushdown (Cable - Straight Bar),55.6
 2025-07-01,Upright Row (Cable),44.1
-2025-08-01,Bench Press (Barbell),104.0
 2025-08-01,Bent Over One Arm Row (Dumbbell),47.6
 2025-08-01,Bicep Curl (Cable),17.5
 2025-08-01,Bulgarien Split SMITH,40.0
 2025-08-01,Cable Crossover,19.2
-2025-08-01,Chest Dip,29.3
 2025-08-01,Face Pull (Cable),32.6
 2025-08-01,Hack Squat,56.0
 2025-08-01,Hip Abductor (Machine),116.0
 2025-08-01,Hip Adductor (Machine),188.0
 2025-08-01,Incline Bench Press (Dumbbell),46.5
-2025-08-01,Incline Bench Press (Smith Machine),95.7
-2025-08-01,Incline Curl (Dumbbell),19.1
+2025-08-01,Incline Curl (Dumbbell),18.4
 2025-08-01,Lat Pulldown (Cable),126.7
 2025-08-01,Lateral Raise (Dumbbell),14.7
-2025-08-01,Overhead Press (Dumbbell),36.4
 2025-08-01,Overhead Press (Smith Machine),52.5
-2025-08-01,Pull Up,20.5
+2025-08-01,Pull Up,20.0
 2025-08-01,Pullover (Machine),36.4
-2025-08-01,Push Up,7.5
 2025-08-01,Romanian Deadlift (Barbell),112.0
 2025-08-01,Seated Calf Raise (Plate Loaded),49.0
 2025-08-01,Seated Overhead Press (Dumbbell),35.5
 2025-08-01,Shrug (Dumbbell),44.8
 2025-08-01,T Bar Row,56.0
 2025-08-01,Triceps Extension (Cable),39.3
-2025-08-01,Upright Row (Cable),42.2
+2025-08-01,Upright Row (Cable),36.7
 2025-09-01,Back Extension,16.0
-2025-09-01,Bicep Curl (Barbell),41.4
 2025-09-01,Bicep Curl (Cable),16.5
-2025-09-01,Bulgarien Split SMITH,40.0
-2025-09-01,Cable Crossover,19.2
+2025-09-01,Bulgarien Split SMITH,28.0
 2025-09-01,Chest Dip,0.0
 2025-09-01,Hammer Curl (Dumbbell),19.1
-2025-09-01,Incline Bench Press (Barbell),93.3
 2025-09-01,Lateral Raise (Cable),11.1
 2025-09-01,Overhead Press (Smith Machine),52.0
 2025-09-01,Pull Up,19.1
@@ -1801,7 +1739,7 @@ month,exercise_name,best_1rm_kg
 2025-10-01,Bulgarien Split SMITH,41.0
 2025-10-01,Cable Crossover,21.4
 2025-10-01,Chest Fly,93.2
-2025-10-01,Hack Squat,84.0
+2025-10-01,Hack Squat,60.0
 2025-10-01,Hammer Curl (Dumbbell),19.6
 2025-10-01,Hip Abductor (Machine),116.0
 2025-10-01,Hip Adductor (Machine),172.0
@@ -1818,13 +1756,6 @@ month,exercise_name,best_1rm_kg
 2025-10-01,Seated Row (Machine),116.7
 2025-10-01,Shrug (Dumbbell),47.6
 2025-10-01,Triceps Extensions Stange,46.0
-2025-11-01,Chest Dip,0.0
-2025-11-01,Goblet Squat (Kettlebell),36.8
-2025-11-01,Kettlebell Swing,36.0
-2025-11-01,Pull Up,0.0
-2025-11-01,Pullover (Machine),36.4
-2025-11-01,Romanian Deadlift (Dumbbell),33.6
-2025-11-01,Shoulder Press (Machine),86.0
 2025-12-01,Bent Over One Arm Row (Dumbbell),41.1
 2025-12-01,Bicep Curl (Cable),13.9
 2025-12-01,Bulgarien Split SMITH,26.0
@@ -1851,22 +1782,20 @@ month,exercise_name,best_1rm_kg
 2025-12-01,Standing Calf Raise (Machine),152.0
 2025-12-01,Triceps Extension (Cable),32.9
 2026-01-01,Bent Over One Arm Row (Dumbbell),39.2
-2026-01-01,Bicep Curl (Barbell),38.7
 2026-01-01,Bulgarien Split SMITH,39.0
 2026-01-01,Cable Crossover,13.0
 2026-01-01,Chest Dip,28.7
 2026-01-01,Chest Fly,67.5
 2026-01-01,Face Pull (Cable),32.6
 2026-01-01,Hack Squat,78.8
-2026-01-01,Hammer Curl (Dumbbell),18.7
+2026-01-01,Hammer Curl (Dumbbell),16.0
 2026-01-01,Incline Bench Press (Dumbbell),47.6
 2026-01-01,Incline Curl (Dumbbell),17.7
 2026-01-01,Lat Pulldown (Cable),109.3
-2026-01-01,Lateral Raise (Cable),11.3
 2026-01-01,Lateral Raise (Dumbbell),13.1
 2026-01-01,Lying Leg Curl (Machine),63.3
 2026-01-01,Overhead Press (Dumbbell),35.5
-2026-01-01,Overhead Press (Smith Machine),53.3
+2026-01-01,Overhead Press (Smith Machine),52.0
 2026-01-01,Pull Up,24.0
 2026-01-01,Pullover (Machine),33.7
 2026-01-01,Reverse Fly (Machine),76.7
@@ -1876,7 +1805,6 @@ month,exercise_name,best_1rm_kg
 2026-01-01,Skullcrusher (Barbell),38.7
 2026-01-01,Standing Calf Raise (Machine),152.0
 2026-01-01,Triceps Extension (Cable),32.9
-2026-01-01,Triceps Extensions Stange,45.0
 2026-01-01,Triceps Pushdown (Cable - Straight Bar),55.6
 2026-01-01,Upright Row (Cable),36.7
 2026-02-01,Bicep Curl (Cable),15.8
@@ -1933,7 +1861,7 @@ month,exercise_name,best_1rm_kg
 2026-04-01,Chest Fly,103.9
 2026-04-01,Hack Squat,61.5
 2026-04-01,Hammer Curl (Dumbbell),17.7
-2026-04-01,Incline Bench Press (Dumbbell),44.8
+2026-04-01,Incline Bench Press (Dumbbell),43.7
 2026-04-01,Incline Curl (Dumbbell),17.2
 2026-04-01,Lat Pulldown (Cable),107.5
 2026-04-01,Lateral Raise (Dumbbell),14.3
