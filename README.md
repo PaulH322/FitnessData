@@ -41,7 +41,6 @@ FitnessData/
 │   ├── schema.sql              # Table definitions
 │   └── queries.sql             # Analysis queries
 ├── powerbi/                    # Power BI dashboard (.pbix)
-├── CLAUDE.md                   # Project context for Claude Code
 └── README.md
 ```
 
