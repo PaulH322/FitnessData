@@ -2,6 +2,8 @@
 
 A project analyzing 6 years of personal strength training data (850 workouts, May 2020 – May 2026) exported from the [Strong](https://www.strong.app/) app.
 
+**Live dashboard: [paul-haubold-fitness.streamlit.app](https://paul-haubold-fitness.streamlit.app)**
+
 ---
 
 ## Dataset
@@ -41,6 +43,10 @@ FitnessData/
 │   ├── schema.sql              # Table definitions
 │   └── queries.sql             # Analysis queries
 ├── powerbi/                    # Power BI dashboard (.pbix)
+├── streamlit_app/              # Streamlit dashboard (Phase 5)
+│   ├── app.py                  # Entry point / Overview page
+│   ├── pages/                  # Strength Progression, Volume & Frequency, Statistics
+│   └── requirements.txt
 └── README.md
 ```
 
@@ -71,6 +77,14 @@ FitnessData/
 - Strength progression for key lifts (Bench Press, Pull Up, ...)
 - Volume trends over time
 
+### Phase 5 — Streamlit Dashboard
+Public, interactive companion to the Power BI dashboard, deployed on [Streamlit Community Cloud](https://paul-haubold-fitness.streamlit.app) — auto-redeploys on every push to `master`.
+
+- **Overview**: total workouts, total volume, most-trained muscle group, current week streak, GitHub-style training calendar
+- **Strength Progression**: 1RM development per exercise (dropdown filter), personal record highlighted with date
+- **Volume & Frequency**: monthly volume, weekday × hour training heatmap, top 10 exercises by volume
+- **Statistics Deep Dive**: workout duration distribution, training frequency vs. 1RM correlation
+
 ---
 
 ## Setup
@@ -80,6 +94,14 @@ pip install pandas matplotlib seaborn jupyter
 ```
 
 Open notebooks in order starting with `notebooks/01_cleaning.ipynb`.
+
+To run the Streamlit dashboard locally:
+
+```bash
+cd streamlit_app
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ---
 
