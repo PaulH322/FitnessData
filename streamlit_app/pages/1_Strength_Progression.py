@@ -3,9 +3,9 @@ import streamlit as st
 
 from utils import load_sets
 
-st.set_page_config(page_title="FitnessData — Strength Progression", page_icon="📈", layout="wide")
+st.set_page_config(page_title="FitnessData — Strength Progression", layout="wide")
 
-st.title("📈 Strength Progression")
+st.title("Strength Progression")
 st.caption("Estimated 1RM (Epley formula), best set per session.")
 
 sets_df = load_sets()

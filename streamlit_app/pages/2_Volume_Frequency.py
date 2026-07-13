@@ -4,9 +4,9 @@ import streamlit as st
 
 from utils import load_sets, load_summary
 
-st.set_page_config(page_title="FitnessData — Volume & Frequency", page_icon="📊", layout="wide")
+st.set_page_config(page_title="FitnessData — Volume & Frequency", layout="wide")
 
-st.title("📊 Volume & Frequency")
+st.title("Volume & Frequency")
 
 sets_df = load_sets()
 summary_df = load_summary()

@@ -4,7 +4,7 @@ import streamlit as st
 
 from utils import load_sets, load_summary
 
-st.set_page_config(page_title="FitnessData — Overview", page_icon="🏋️", layout="wide")
+st.set_page_config(page_title="FitnessData — Overview", layout="wide")
 
 
 def compute_week_streak(dates: pd.Series) -> int:
@@ -67,7 +67,7 @@ def calendar_heatmap(dates_with_volume: pd.DataFrame, year: int) -> go.Figure:
 sets_df = load_sets()
 summary_df = load_summary()
 
-st.title("🏋️ FitnessData — Overview")
+st.title("FitnessData — Overview")
 st.caption("6 years of personal strength training data, exported from Strong.")
 
 total_workouts = len(summary_df)

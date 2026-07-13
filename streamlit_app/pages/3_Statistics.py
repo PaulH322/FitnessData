@@ -4,9 +4,9 @@ import streamlit as st
 
 from utils import load_summary
 
-st.set_page_config(page_title="FitnessData — Statistics Deep Dive", page_icon="🔬", layout="wide")
+st.set_page_config(page_title="FitnessData — Statistics Deep Dive", layout="wide")
 
-st.title("🔬 Statistics Deep Dive")
+st.title("Statistics Deep Dive")
 
 summary_df = load_summary()
 

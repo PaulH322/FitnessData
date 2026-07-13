@@ -78,12 +78,12 @@ FitnessData/
 - Volume trends over time
 
 ### Phase 5 — Streamlit Dashboard
-Public, interactive companion to the Power BI dashboard, deployed on [Streamlit Community Cloud](https://paul-haubold-fitness.streamlit.app) — auto-redeploys on every push to `master`.
+Interactive companion to the Power BI dashboard, live at [paul-haubold-fitness.streamlit.app](https://paul-haubold-fitness.streamlit.app).
 
-- **Overview**: total workouts, total volume, most-trained muscle group, current week streak, GitHub-style training calendar
-- **Strength Progression**: 1RM development per exercise (dropdown filter), personal record highlighted with date
-- **Volume & Frequency**: monthly volume, weekday × hour training heatmap, top 10 exercises by volume
-- **Statistics Deep Dive**: workout duration distribution, training frequency vs. 1RM correlation
+- Overview: total workouts, total volume, most-trained muscle group, current week streak, training calendar
+- Strength progression: 1RM development per exercise, personal record highlighted with date
+- Volume & frequency: monthly volume, weekday × hour training heatmap, top 10 exercises by volume
+- Statistics: workout duration distribution, training frequency vs. 1RM correlation
 
 ---
 
@@ -113,4 +113,4 @@ The **Epley formula** estimates the theoretical one-rep maximum from any set:
 1RM = weight × (1 + reps / 30)
 ```
 
-This allows comparing strength across different rep ranges and tracking progress over time.
+This makes strength comparable across different rep ranges and trackable over time.
