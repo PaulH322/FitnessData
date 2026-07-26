@@ -76,6 +76,10 @@ def bullet_chart(user_value: float, thresholds: dict) -> go.Figure:
         showarrow=False,
         yanchor="bottom",
         font=dict(size=12, color="#111827"),
+        bgcolor="#ffffff",
+        bordercolor="#111827",
+        borderwidth=1,
+        borderpad=3,
     )
     fig.update_layout(
         barmode="stack",
@@ -85,6 +89,7 @@ def bullet_chart(user_value: float, thresholds: dict) -> go.Figure:
         showlegend=True,
         legend=dict(orientation="h", yanchor="bottom", y=1.05, traceorder="normal"),
     )
+    fig.update_xaxes(range=[floor, ceiling])
     fig.update_yaxes(showticklabels=False)
     return disable_zoom(fig)
 
