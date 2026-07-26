@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from utils import load_sets, load_summary
+from utils import PLOTLY_CONFIG, disable_zoom, load_sets, load_summary
 
 st.set_page_config(page_title="FitnessData — Overview", layout="wide")
 
@@ -61,7 +61,7 @@ def calendar_heatmap(dates_with_volume: pd.DataFrame, year: int) -> go.Figure:
     )
     fig.update_xaxes(showticklabels=False)
     fig.update_layout(height=220, margin=dict(l=40, r=10, t=10, b=10))
-    return fig
+    return disable_zoom(fig)
 
 
 sets_df = load_sets()
@@ -90,4 +90,4 @@ st.caption(f"Last logged workout: {last_workout.date()} ({days_since_last} days 
 st.subheader("Training Calendar")
 years = sorted(summary_df["date"].dt.year.unique(), reverse=True)
 selected_year = st.selectbox("Year", years, index=0)
-st.plotly_chart(calendar_heatmap(sets_df, selected_year), width="stretch")
+st.plotly_chart(calendar_heatmap(sets_df, selected_year), width="stretch", config=PLOTLY_CONFIG)

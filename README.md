@@ -84,7 +84,7 @@ Interactive companion to the Power BI dashboard, live at [paul-haubold-fitness.s
 - Strength progression: 1RM development per exercise, personal record highlighted with date
 - Volume & frequency: monthly volume, weekday × hour training heatmap, top 10 exercises by volume
 - Statistics: workout duration distribution, training frequency vs. 1RM correlation
-- Strength standards: five key lifts (Pull Ups, Incline Dumbbell Bench Press, Dips, Leg Press, Romanian Deadlift) benchmarked against [strengthlevel.com](https://strengthlevel.com/strength-standards) community standards at 80 kg body weight
+- Strength standards: four key lifts (Pull Ups, Incline Dumbbell Bench Press, Dips, Romanian Deadlift) benchmarked against [strengthlevel.com](https://strengthlevel.com/strength-standards) community standards at 80 kg body weight
 
 ---
 

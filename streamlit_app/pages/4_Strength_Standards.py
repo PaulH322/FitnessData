@@ -1,7 +1,7 @@
 import plotly.graph_objects as go
 import streamlit as st
 
-from utils import load_sets
+from utils import PLOTLY_CONFIG, disable_zoom, load_sets
 
 st.set_page_config(page_title="FitnessData — Strength Standards", layout="wide")
 
@@ -24,17 +24,14 @@ STANDARDS = {
         "exercise": "Chest Dip",
         "thresholds": {"Beginner": 5, "Novice": 26, "Intermediate": 52, "Advanced": 81, "Elite": 111},
     },
-    "Leg Press (1RM, horizontal)": {
-        "exercise": "Leg Press",
-        "thresholds": {"Beginner": 76, "Novice": 119, "Intermediate": 175, "Advanced": 241, "Elite": 314},
-    },
     "Romanian Deadlift (1RM)": {
         "exercise": "Romanian Deadlift (Barbell)",
         "thresholds": {"Beginner": 65, "Novice": 92, "Intermediate": 125, "Advanced": 163, "Elite": 203},
     },
 }
 
-BAND_COLORS = ["#fecaca", "#fed7aa", "#fef08a", "#bbf7d0", "#86efac", "#4ade80"]
+# Gray for "below Beginner", then one color per level from Beginner (red) to Elite (green).
+BAND_COLORS = ["#e5e7eb", "#fecaca", "#fed7aa", "#fef08a", "#bbf7d0", "#4ade80"]
 
 
 def classify(value: float, thresholds: dict) -> str:
@@ -48,15 +45,18 @@ def classify(value: float, thresholds: dict) -> str:
 def bullet_chart(user_value: float, thresholds: dict) -> go.Figure:
     names = list(thresholds.keys())
     bounds = list(thresholds.values())
-    start = min(0, bounds[0])
-    extra = (bounds[-1] - start) * 0.15
 
-    bases = [start] + bounds
-    widths = [b - a for a, b in zip(bases[:-1], bases[1:])] + [extra]
-    names = names + ["Beyond Elite"]
+    floor = min(0, bounds[0], user_value)
+    ceiling = bounds[-1] + (bounds[-1] - floor) * 0.15
+    edges = [floor] + bounds + [ceiling]
+    labels = ["Below Beginner"] + names
 
     fig = go.Figure()
-    for name, base, width, color in zip(names, bases, widths, BAND_COLORS):
+    for label, base, width, color in zip(
+        labels, edges[:-1], [b - a for a, b in zip(edges[:-1], edges[1:])], BAND_COLORS
+    ):
+        if width <= 0:
+            continue
         fig.add_trace(
             go.Bar(
                 x=[width],
@@ -64,8 +64,8 @@ def bullet_chart(user_value: float, thresholds: dict) -> go.Figure:
                 base=[base],
                 orientation="h",
                 marker_color=color,
-                name=name,
-                hovertemplate=f"{name}<extra></extra>",
+                name=label,
+                hovertemplate=f"{label}<extra></extra>",
             )
         )
     fig.add_shape(type="line", x0=user_value, x1=user_value, y0=-0.4, y1=0.4, line=dict(color="#111827", width=3))
@@ -83,10 +83,10 @@ def bullet_chart(user_value: float, thresholds: dict) -> go.Figure:
         margin=dict(l=10, r=10, t=10, b=30),
         xaxis_title="kg",
         showlegend=True,
-        legend=dict(orientation="h", yanchor="bottom", y=1.05),
+        legend=dict(orientation="h", yanchor="bottom", y=1.05, traceorder="normal"),
     )
     fig.update_yaxes(showticklabels=False)
-    return fig
+    return disable_zoom(fig)
 
 
 st.title("Strength Standards")
@@ -105,5 +105,5 @@ for label, config in STANDARDS.items():
     level = classify(user_value, config["thresholds"])
 
     st.subheader(label)
-    st.plotly_chart(bullet_chart(user_value, config["thresholds"]), width="stretch")
+    st.plotly_chart(bullet_chart(user_value, config["thresholds"]), width="stretch", config=PLOTLY_CONFIG)
     st.caption(f"Your level: **{level}**")

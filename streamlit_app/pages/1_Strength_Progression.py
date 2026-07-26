@@ -1,7 +1,7 @@
 import plotly.graph_objects as go
 import streamlit as st
 
-from utils import load_sets
+from utils import PLOTLY_CONFIG, disable_zoom, load_sets
 
 st.set_page_config(page_title="FitnessData — Strength Progression", layout="wide")
 
@@ -56,7 +56,7 @@ else:
         height=500,
         margin=dict(l=40, r=20, t=20, b=40),
     )
-    st.plotly_chart(fig, width="stretch")
+    st.plotly_chart(disable_zoom(fig), width="stretch", config=PLOTLY_CONFIG)
 
     col1, col2, col3 = st.columns(3)
     col1.metric("Personal Record", f"{pr_row['estimated_1rm']:.1f} kg", help=f"Set on {pr_row['date'].date()}")

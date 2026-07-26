@@ -2,7 +2,7 @@ import numpy as np
 import plotly.graph_objects as go
 import streamlit as st
 
-from utils import load_summary
+from utils import PLOTLY_CONFIG, disable_zoom, load_summary
 
 st.set_page_config(page_title="FitnessData — Statistics Deep Dive", layout="wide")
 
@@ -18,7 +18,7 @@ fig_hist.update_layout(
     height=400,
     margin=dict(l=40, r=20, t=20, b=40),
 )
-st.plotly_chart(fig_hist, width="stretch")
+st.plotly_chart(disable_zoom(fig_hist), width="stretch", config=PLOTLY_CONFIG)
 
 col1, col2, col3 = st.columns(3)
 col1.metric("Median Duration", f"{summary_df['duration_min'].median():.0f} min")
@@ -53,5 +53,5 @@ fig_scatter.update_layout(
     height=450,
     margin=dict(l=40, r=20, t=20, b=40),
 )
-st.plotly_chart(fig_scatter, width="stretch")
+st.plotly_chart(disable_zoom(fig_scatter), width="stretch", config=PLOTLY_CONFIG)
 st.caption(f"Pearson correlation: r = {corr:.2f} (based on {len(monthly)} months)")

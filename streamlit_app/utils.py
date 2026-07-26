@@ -144,3 +144,13 @@ def load_sets() -> pd.DataFrame:
 @st.cache_data
 def load_summary() -> pd.DataFrame:
     return pd.read_csv(DATA_DIR / "workout_summary.csv", parse_dates=["date"])
+
+
+PLOTLY_CONFIG = {"displayModeBar": False}
+
+
+def disable_zoom(fig):
+    """Locks pan/zoom so charts stay static for portfolio viewing."""
+    fig.update_xaxes(fixedrange=True)
+    fig.update_yaxes(fixedrange=True)
+    return fig

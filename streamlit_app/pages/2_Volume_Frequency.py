@@ -2,7 +2,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from utils import load_sets, load_summary
+from utils import PLOTLY_CONFIG, disable_zoom, load_sets, load_summary
 
 st.set_page_config(page_title="FitnessData — Volume & Frequency", layout="wide")
 
@@ -25,7 +25,7 @@ fig_monthly = px.bar(
     labels={"month": "Month", "total_volume_kg": "Volume (kg)"},
 )
 fig_monthly.update_layout(height=400, margin=dict(l=40, r=20, t=20, b=40))
-st.plotly_chart(fig_monthly, width="stretch")
+st.plotly_chart(disable_zoom(fig_monthly), width="stretch", config=PLOTLY_CONFIG)
 
 st.subheader("When Do You Train?")
 workout_times = summary_df.copy()
@@ -53,7 +53,7 @@ fig_hm.update_layout(
     height=350,
     margin=dict(l=60, r=20, t=20, b=40),
 )
-st.plotly_chart(fig_hm, width="stretch")
+st.plotly_chart(disable_zoom(fig_hm), width="stretch", config=PLOTLY_CONFIG)
 
 st.subheader("Top 10 Exercises by Total Volume")
 top10 = (
