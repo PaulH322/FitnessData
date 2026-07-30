@@ -50,7 +50,7 @@ FitnessData/
 ├── powerbi/                    # Power BI dashboard (.pbix)
 ├── streamlit_app/              # Streamlit dashboard (Phase 5)
 │   ├── app.py                  # Entry point / Overview page
-│   ├── pages/                  # Strength Progression, Volume & Frequency, Statistics
+│   ├── pages/                  # Strength Progression, Volume & Frequency, Statistics, Standards, Comparison
 │   └── requirements.txt
 └── README.md
 ```
@@ -90,6 +90,7 @@ Interactive companion to the Power BI dashboard, live at [paul-haubold-fitness.s
 - Volume & frequency: monthly volume, weekday × hour training heatmap, top 10 exercises by volume
 - Statistics: workout duration distribution, training frequency vs. 1RM correlation
 - Strength standards: four key lifts (Pull Ups, Incline Dumbbell Bench Press, Dips, Romanian Deadlift) benchmarked against [strengthlevel.com](https://strengthlevel.com/strength-standards) community standards at 80 kg body weight
+- Comparison: the Phase 6 analysis made interactive — frequency charts, a per-exercise progression overlay, and a peak-timing table across all shared lifts
 
 ### Phase 6 — Comparative Analysis
 No bodyweight/age is available for other lifters, so this phase skips absolute-strength comparisons and

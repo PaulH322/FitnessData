@@ -146,6 +146,15 @@ def load_summary() -> pd.DataFrame:
     return pd.read_csv(DATA_DIR / "workout_summary.csv", parse_dates=["date"])
 
 
+@st.cache_data
+def load_reference() -> pd.DataFrame:
+    """Reference lifter's sets, produced by notebooks/04_comparison.ipynb."""
+    return pd.read_csv(DATA_DIR / "reference_sets.csv", parse_dates=["date"])
+
+
+REFERENCE_FILE = DATA_DIR / "reference_sets.csv"
+
+
 PLOTLY_CONFIG = {"displayModeBar": False}
 
 
