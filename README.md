@@ -24,6 +24,8 @@ Source: Strong app CSV export (`data/raw/strong_userdata.csv`)
 
 Raw data: ~23,000 rows · 850 workouts · semicolon-delimited · one row per set
 
+Reference data (Phase 6 only): [721 Weight Training Workouts](https://www.kaggle.com/datasets/joep89/weightlifting/data) by joep89 (Kaggle) — another lifter's 3-year training log, same one-row-per-set shape, used for a frequency/progression comparison, not a Strong export.
+
 ---
 
 ## Project Structure
@@ -32,13 +34,16 @@ Raw data: ~23,000 rows · 850 workouts · semicolon-delimited · one row per set
 FitnessData/
 ├── data/
 │   ├── raw/                    # Original Strong export — do not modify
+│   │   └── weightlifting_721_workouts.csv  # Reference lifter (Phase 6), from Kaggle
 │   └── clean/                  # Processed output CSVs
 │       ├── clean_sets.csv      # Filtered, typed, feature-enriched sets
-│       └── workout_summary.csv # One row per workout (aggregated)
+│       ├── workout_summary.csv # One row per workout (aggregated)
+│       └── reference_sets.csv  # Cleaned reference lifter data (Phase 6)
 ├── notebooks/
 │   ├── 01_cleaning.ipynb       # Phase 1: Data cleaning & feature engineering
 │   ├── 02_sql_setup.ipynb      # Phase 2: SQLite DB setup & queries
-│   └── 03_statistics.ipynb     # Phase 3: Descriptive stats & trend analysis
+│   ├── 03_statistics.ipynb     # Phase 3: Descriptive stats & trend analysis
+│   └── 04_comparison.ipynb     # Phase 6: Comparison against a reference lifter
 ├── sql/
 │   ├── schema.sql              # Table definitions
 │   └── queries.sql             # Analysis queries
@@ -85,6 +90,14 @@ Interactive companion to the Power BI dashboard, live at [paul-haubold-fitness.s
 - Volume & frequency: monthly volume, weekday × hour training heatmap, top 10 exercises by volume
 - Statistics: workout duration distribution, training frequency vs. 1RM correlation
 - Strength standards: four key lifts (Pull Ups, Incline Dumbbell Bench Press, Dips, Romanian Deadlift) benchmarked against [strengthlevel.com](https://strengthlevel.com/strength-standards) community standards at 80 kg body weight
+
+### Phase 6 — Comparative Analysis
+No bodyweight/age is available for other lifters, so this phase skips absolute-strength comparisons and
+instead looks at training frequency patterns and the *shape* of strength progression over time, against
+a reference lifter's dataset: [721 Weight Training Workouts](https://www.kaggle.com/datasets/joep89/weightlifting/data) by joep89 (Kaggle).
+
+- Training frequency: workouts/week distribution, weekday training pattern
+- Progression shape: exercises with enough sets on both sides, in two tiers — solid (≥ 100 sets) and limited-data (30–99 sets, labeled as such) — each lifter's estimated 1RM indexed to their own peak and aligned by weeks since their first logged set, comparing trajectory shape, not absolute numbers
 
 ---
 
